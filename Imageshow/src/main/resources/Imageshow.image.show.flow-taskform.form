@@ -1,0 +1,15 @@
+
+<form id="947572802">
+<property name="subject" value=""/>
+<property name="name" value="Imageshow.image.show.flow-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="imageid" type="InputText" id="89206557">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;imageid (imageid)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="imageid"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder name="#0000A0" type="basicType" outId="imageid" value="java.lang.String" id="imageid"/>
+</form>
