@@ -1,7 +1,0 @@
-
-<form id="1878491492">
-<property name="name" value="Digitization.CaptureDocument-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="" name="#0000A0" type="basicType" outId="BusinessDocument" value="org.jbpm.document.Document" id="BusinessDocument"/>
-</form>
