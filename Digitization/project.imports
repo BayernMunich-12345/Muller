@@ -14,7 +14,10 @@
         <type>java.nio.file.Paths</type>
       </import>
       <import>
-        <type>java.io</type>
+        <type>java.io.FileOutputStream</type>
+      </import>
+      <import>
+        <type>java.io.IOException</type>
       </import>
     </imports>
   </imports>
