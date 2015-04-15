@@ -2,10 +2,10 @@
   <imports>
     <imports>
       <import>
-        <type>java.awt.image</type>
+        <type>javax.imageio.ImageIO</type>
       </import>
       <import>
-        <type>javax.imageio.ImageIO</type>
+        <type>java.awt.image.BufferedImage</type>
       </import>
     </imports>
   </imports>
