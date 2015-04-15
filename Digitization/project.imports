@@ -1,31 +1,6 @@
 <configuration>
   <imports>
-    <imports>
-      <import>
-        <type>java.lang.Number</type>
-      </import>
-      <import>
-        <type>java.nio.file.Path</type>
-      </import>
-      <import>
-        <type>java.nio.file.Paths</type>
-      </import>
-      <import>
-        <type>java.io.FileOutputStream</type>
-      </import>
-      <import>
-        <type>java.io.IOException</type>
-      </import>
-      <import>
-        <type>java.io.FileInputStream</type>
-      </import>
-      <import>
-        <type>java.io.File</type>
-      </import>
-      <import>
-        <type>java.nio.file.Files</type>
-      </import>
-    </imports>
+    <imports/>
   </imports>
   <version>1.0</version>
 </configuration>
