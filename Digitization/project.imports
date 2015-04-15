@@ -4,6 +4,18 @@
       <import>
         <type>java.lang.Number</type>
       </import>
+      <import>
+        <type>java.io.*</type>
+      </import>
+      <import>
+        <type>java.nio.file.Files</type>
+      </import>
+      <import>
+        <type>java.nio.file.Path</type>
+      </import>
+      <import>
+        <type>java.nio.file.Paths</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
