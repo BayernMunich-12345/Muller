@@ -5,9 +5,6 @@
         <type>java.lang.Number</type>
       </import>
       <import>
-        <type>java.io.*</type>
-      </import>
-      <import>
         <type>java.nio.file.Files</type>
       </import>
       <import>
@@ -15,6 +12,9 @@
       </import>
       <import>
         <type>java.nio.file.Paths</type>
+      </import>
+      <import>
+        <type>java.io</type>
       </import>
     </imports>
   </imports>
