@@ -19,6 +19,12 @@
       <import>
         <type>java.io.IOException</type>
       </import>
+      <import>
+        <type>java.io.FileInputStream</type>
+      </import>
+      <import>
+        <type>java.io.File</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
