@@ -5,7 +5,7 @@
         <type>java.awt.image</type>
       </import>
       <import>
-        <type>import javax.imageio.ImageIO</type>
+        <type>javax.imageio.ImageIO;</type>
       </import>
     </imports>
   </imports>
