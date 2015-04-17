@@ -5,7 +5,7 @@
   <groupId>demo</groupId>
   <artifactId>Digitization</artifactId>
   <version>1.0</version>
-  <name>Digitization</name>
+  <name>Submit Document</name>
   <build>
     <plugins>
       <plugin>
