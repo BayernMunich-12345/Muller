@@ -4,6 +4,12 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
+<property name="formTemplate" value="&lt;p&gt;This portion of the UI was RESTfully transferred from the jbpm-console&lt;/p&gt;
+&lt;style type=&quot;text/css&quot;&gt;body {
+    background-image: url(&quot;TDlogo.jpg&quot;);
+}
+&lt;/style&gt;
+"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="BSRexist" value="java.lang.Boolean" id="BSRexist"/>
 <dataHolder inputId="" name="#0000A0" type="basicType" outId="BusinessDocument" value="org.jbpm.document.Document" id="BusinessDocument"/>
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="RequestType" value="java.lang.String" id="RequestType"/>
