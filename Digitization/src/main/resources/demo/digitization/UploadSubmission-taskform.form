@@ -4,32 +4,32 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;html{  background-color:#00cc00; }
-p.fields {
-margin-left: auto;
-margin-right: auto;
-width: 40px;
+<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;html{  
+background-color:#00cc00; 
+width:600px;
+length:400px;
+} 
+p.fields { margin-left: auto; margin-right: auto; width: 40px; }
+h1.title{
+    font-size:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 &lt;/style&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://cspf-forum.ca/wp-content/uploads/2014/03/td-LOGO.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; height=&quot;121&quot; src=&quot;http://cspf-forum.ca/wp-content/uploads/2014/03/td-LOGO.jpg&quot; width=&quot;136&quot; /&gt;&lt;/p&gt;
 
-&lt;h1&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Customer View &lt;/strong&gt;&lt;/h1&gt;
+&lt;h1 class=&quot;title&quot;&gt;Customer View&lt;/h1&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Submit your documents below!&lt;/p&gt;
+&lt;p&gt;Submit your documents below!&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;fields&quot;&gt;$label{BusinessDocument}&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;fields&quot;&gt;$field{BusinessDocument}&lt;/p&gt;
 
-&lt;p class=&quot;fields&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $label{BusinessDocument}&lt;/p&gt;
+&lt;p class=&quot;fields&quot;&gt;$label{RequestType}&lt;/p&gt;
 
-&lt;p class=&quot;fields&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $field{BusinessDocument}&lt;/p&gt;
-
-&lt;p class=&quot;fields&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $label{RequestType}&lt;/p&gt;
-
-&lt;p class=&quot;fields&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $field{RequestType}&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;fields&quot;&gt;$field{RequestType}&lt;/p&gt;
 "/>
 <field position="0" name="BusinessDocument" type="Document" id="1547179691">
 <property name="fieldRequired" value="false"/>
