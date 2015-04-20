@@ -4,9 +4,15 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;p&gt;This portion of the UI was RESTfully transferred from the jbpm-console&lt;/p&gt;
-&lt;style type=&quot;text/css&quot;&gt;body {
-    background-image: url(&quot;TDlogo.jpg&quot;);
+<property name="formTemplate" value="&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://cspf-forum.ca/wp-content/uploads/2014/03/td-LOGO.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;main&quot;&gt;This portion of the UI was RESTfully transferred from the jbpm-console&lt;/p&gt;
+&lt;style type=&quot;text/css&quot;&gt;p.main{
+ font-size: 20px;
+}
+
+body {     
+background-color: #00cc00;
 }
 &lt;/style&gt;
 "/>
